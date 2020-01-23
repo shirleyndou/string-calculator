@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d9f6800-9257-4bdd-881f-84146b83c471" name="Default Changelist" comment="" />
+    <list default="true" id="4d9f6800-9257-4bdd-881f-84146b83c471" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Add.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WhtIsMbPHJw8q9gZVyfznYeEns" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -27,6 +36,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager">
@@ -69,22 +79,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1253" height="127" key="GridCell.Tab.0.bottom" timestamp="1579781026246">
+    <state width="1253" height="129" key="GridCell.Tab.0.bottom" timestamp="1579784255154">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="127" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579781026246" />
-    <state width="1253" height="127" key="GridCell.Tab.0.center" timestamp="1579781026246">
+    <state width="1253" height="129" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1579784255154" />
+    <state width="1253" height="129" key="GridCell.Tab.0.center" timestamp="1579784255153">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="127" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579781026246" />
-    <state width="1253" height="127" key="GridCell.Tab.0.left" timestamp="1579781026245">
+    <state width="1253" height="129" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1579784255153" />
+    <state width="1253" height="129" key="GridCell.Tab.0.left" timestamp="1579784255153">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="127" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579781026245" />
-    <state width="1253" height="127" key="GridCell.Tab.0.right" timestamp="1579781026246">
+    <state width="1253" height="129" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1579784255153" />
+    <state width="1253" height="129" key="GridCell.Tab.0.right" timestamp="1579784255153">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="127" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579781026246" />
+    <state width="1253" height="129" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1579784255153" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1579703773451">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

@@ -7,6 +7,15 @@ public class Add {
 
     public int add(String numbers) throws Exception {
 
+        String delimiter = "\\[.+?\\]"; //a string that looks for any character that starts with a [ and ends with a ]
+        Pattern patternDelimiter = Pattern.compile(delimiter);
+        Matcher matcherDelimiter = patternDelimiter.matcher(numbers);
+
+        while(matcherDelimiter.find())
+        {
+            numbers = numbers.replace(matcherDelimiter.group().substring(1, matcherDelimiter.group().indexOf("]")), ",");
+        }
+
         if(numbers.length() >=2 && numbers.substring(0, 2) == "//") {
             numbers = numbers.replace(numbers.substring(2, numbers.indexOf("\n")), ",");  /*replace the delimiter before printing or calculating the sum*/
         }
