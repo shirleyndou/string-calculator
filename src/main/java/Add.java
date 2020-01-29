@@ -12,8 +12,6 @@ public class Add {
     int sum = 0;
 
     public int add(String numbers) throws Exception {
-        try {
-
             String delimiter = "\\[.+?\\]"; //a string that looks for any character that starts with a [ and ends with a ]
             Pattern patternDelimiter = Pattern.compile(delimiter);
             Matcher matcherDelimiter = patternDelimiter.matcher(numbers);
@@ -52,17 +50,9 @@ public class Add {
                     sum += Integer.parseInt(matcher.group());
                 }
 
-                if(numbers.endsWith(";")){
-                    System.err.println("ERROR: invalid input");
-                }
-                else if(numbers.startsWith(" ")){
-                    System.err.println("ERROR: invalid input");
-                }
-            }
-
-        } catch (Exception e) {
-            System.out.println("Invalid input");
-            e.printStackTrace();
+               if(numbers.startsWith("") || numbers.endsWith(";")){
+                   throw new Exception("ERROR: invalid input");
+               }
         }
         return sum;
     }
