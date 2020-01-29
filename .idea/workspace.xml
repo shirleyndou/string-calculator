@@ -6,20 +6,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Add.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Add.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/AddTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/AddTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-AddTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-AddTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Add.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Add.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -200,22 +192,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1253" height="291" key="GridCell.Tab.0.bottom" timestamp="1580285047285">
+    <state width="604" height="194" key="GridCell.Tab.0.bottom" timestamp="1580295162649">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="291" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580285047285" />
-    <state width="1253" height="291" key="GridCell.Tab.0.center" timestamp="1580285047284">
+    <state width="604" height="194" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1580295162649" />
+    <state width="604" height="194" key="GridCell.Tab.0.center" timestamp="1580295162649">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="291" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580285047284" />
-    <state width="1253" height="291" key="GridCell.Tab.0.left" timestamp="1580285047284">
+    <state width="604" height="194" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1580295162649" />
+    <state width="604" height="194" key="GridCell.Tab.0.left" timestamp="1580295162649">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="291" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580285047284" />
-    <state width="1253" height="291" key="GridCell.Tab.0.right" timestamp="1580285047284">
+    <state width="604" height="194" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1580295162649" />
+    <state width="604" height="194" key="GridCell.Tab.0.right" timestamp="1580295162649">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="291" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580285047284" />
+    <state width="604" height="194" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1580295162649" />
     <state width="1253" height="219" key="GridCell.Tab.1.bottom" timestamp="1579703773451">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

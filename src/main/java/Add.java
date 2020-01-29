@@ -1,3 +1,7 @@
+import org.w3c.dom.ls.LSOutput;
+
+import javax.crypto.spec.PSource;
+import javax.print.DocFlavor;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,16 +13,11 @@ public class Add {
 
     public int add(String numbers) throws Exception {
         try {
+
             String delimiter = "\\[.+?\\]"; //a string that looks for any character that starts with a [ and ends with a ]
             Pattern patternDelimiter = Pattern.compile(delimiter);
             Matcher matcherDelimiter = patternDelimiter.matcher(numbers);
-/*try {
-    if(!matcherDelimiter.matches()){
-        System.out.println("Valid input");
-    }
-} catch (Exception e) {
-    throw new Exception("Invalid input");
-}*/
+
             while (matcherDelimiter.find()) {
                 numbers = numbers.replace(matcherDelimiter.group().substring(1, matcherDelimiter.group().indexOf("]")), ",");
             }
@@ -33,14 +32,13 @@ public class Add {
             Pattern pattern = Pattern.compile(patternString);
             Matcher matcher = pattern.matcher(numbers);
 
-           // int sum = 0;
             while (matcher.find()) {
                 int stringToInt = Integer.parseInt(matcher.group());
 
                 /*If statement to check if a number is a negative number*/
                 if (stringToInt < 0) {
                     negatives.append(stringToInt).append(",");
-                    //System.out.println(stringToInt);
+
                 }
                 /*If the number is negative, an error message will be thrown*/
                 else if (negatives.length() != 0) {
@@ -53,9 +51,14 @@ public class Add {
                 } else {
                     sum += Integer.parseInt(matcher.group());
                 }
-            }
 
-           // return sum;
+                if(numbers.endsWith(";")){
+                    System.err.println("ERROR: invalid input");
+                }
+                else if(numbers.startsWith(" ")){
+                    System.err.println("ERROR: invalid input");
+                }
+            }
 
         } catch (Exception e) {
             System.out.println("Invalid input");
