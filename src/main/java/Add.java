@@ -50,9 +50,10 @@ public class Add {
                     sum += Integer.parseInt(matcher.group());
                 }
 
-               if(numbers.startsWith("") || numbers.endsWith(";")){
+               if(numbers.startsWith("") && numbers.endsWith(";")){
                    throw new Exception("ERROR: invalid input");
                }
+
         }
         return sum;
     }
